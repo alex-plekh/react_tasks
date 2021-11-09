@@ -1,11 +1,11 @@
-.App {
-  text-align: center;
+.App{
+  background: aqua;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root{
+  background: aqua;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li{
+  line-height: 1.5;
+  font-size: 25px;
 }
